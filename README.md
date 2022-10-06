@@ -27,7 +27,7 @@ input으로 입력받은 여러 숫자(공백으로 구분)를 split()으로 나
 - 리스트 
 - 백준 파이썬 배우기(https://www.acmicpc.net/workbook/view/459)
 
-문자열 => 아스키코드 : ord('A') -> 65, ord
+문자열 => 아스키코드 : ord('A') -> 65
 아스키코드 => 문자열 : chr(48) -> '0'
 문자열 크기 비교는 ASCII 번호 순(소문자 < 대문자)
 
@@ -51,3 +51,11 @@ from time import strftime
 today = date.today()
 print(today.strftime('%Y-%m-%d'))
 ```
+
+## 10/06(목)
+
+수업
+
+- 리스트 타입 함수: append(), extend(), insert()
+- in 연산자
+- 
