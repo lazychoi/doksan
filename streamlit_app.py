@@ -11,6 +11,8 @@ image = Image.open('sunrise.jpg')
 
 st.image(image, caption='Sunrise by the mountains')
 
+st.snow()
+
 # 첫번째 행
 r1_col1, r1_col2, r1_col3 = st.columns(3)
 
