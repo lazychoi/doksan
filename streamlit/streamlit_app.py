@@ -3,7 +3,8 @@ import joblib
 import numpy as np
 
 # 헤드라인
-st.write("# 보험료 예측")
+st.write("# 빅데이터 16기")
+st.write("> 독산동 빅데이터 수업")
 
 # 첫번째 행
 r1_col1, r1_col2, r1_col3 = st.columns(3)
@@ -37,7 +38,7 @@ st.write("---")
 
 # 예측 결과
 if predict_button:
-    model = joblib.load('first_model.pkl')
+    model = joblib.load('./first_model.pkl')
 
     pred = model.predict(np.array([[age, bmi, children, smoker * 1,
         is_male * 1, is_northwest * 1, is_southeast * 1, is_southwest * 1]]))
