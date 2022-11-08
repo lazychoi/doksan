@@ -38,7 +38,7 @@ st.write("---")
 
 # 예측 결과
 if predict_button:
-    model = joblib.load('./first_model.pkl')
+    model = joblib.load('first_model.pkl')
 
     pred = model.predict(np.array([[age, bmi, children, smoker * 1,
         is_male * 1, is_northwest * 1, is_southeast * 1, is_southwest * 1]]))
