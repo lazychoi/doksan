@@ -6,6 +6,11 @@ import numpy as np
 st.write("# 빅데이터 16기")
 st.write("> 독산동 빅데이터 수업")
 
+from PIL import Image
+image = Image.open('sunrise.jpg')
+
+st.image(image, caption='Sunrise by the mountains')
+
 # 첫번째 행
 r1_col1, r1_col2, r1_col3 = st.columns(3)
 
